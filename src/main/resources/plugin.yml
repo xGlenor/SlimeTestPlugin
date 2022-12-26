@@ -1,0 +1,11 @@
+name: ASlimeTestPlugin
+version: '${project.version}'
+main: pl.gduraj.slimetestplugin.SlimeTestPlugin
+api-version: 1.19
+depend:
+  - SlimeWorldManager
+commands:
+  st:
+    description: test
+  stt:
+    description: test
